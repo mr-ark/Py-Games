@@ -1,4 +1,4 @@
-import chess
+From python import chess
 board=chess.board()
 board.push_san("e4")
 board.push_san("e5")
