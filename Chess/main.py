@@ -1,3 +1,5 @@
+# © https://github.com/mr-ark/Py-Games/blob/master/Chess/main.py
+
 # Import libraries
 import numpy as np
 import pygame 
