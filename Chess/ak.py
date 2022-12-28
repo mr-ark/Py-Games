@@ -1,7 +1,7 @@
-#supports Pyscripter & google python local host
+#supports  google python local host
 
 
-#if using py scripter module1:
+# module1:
 
 From python import chess
 board=chess.board()
