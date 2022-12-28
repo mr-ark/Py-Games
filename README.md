@@ -122,6 +122,7 @@ These games are specifically made and optimised for pydroid3
 
 To get a complete list of free and awesome 2D game resources including Spritesheets, Sounds, Textures, HUDs, Menus and other game assets [click here](https://github.com/pyGuru123/gitMemory/blob/main/game%20resources.md)
 
+## © [mr-ark/py-games](https://github.com/mr-ark/Py-Games)
 
 <br/>
 <h3 align="center"> Show ❤️ By Starring this <img align='center'  height="22" src="https://img.shields.io/badge/Repo!%F0%9F%98%8A-purple.svg?&style=for-the-badge&logoColor=green" /></h3>
