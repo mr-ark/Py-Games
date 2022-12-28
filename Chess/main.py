@@ -25,4 +25,23 @@ def draw_board():
         for r in range(HEIGHT):
             pygame.draw.rect(screen, BLUE, (c*SQUARE_SIZE, r*SQUARE_SIZE,SQUARE_SIZE, SQUARE_SIZE))
             if (c+r)%2 == 0:
-                pygame.draw.circle(screen, BLACK, (
+                pygame.draw.circle(screen, BLACK, (int(c*SQUARE_SIZE+SQUARE_SIZE/2), int(r*SQUARE_SIZE+SQUARE_SIZE/2)), RADIUS)
+
+def draw_piece(piece, pos):
+    # Draw the piece
+    pygame.draw.circle(screen, piece, (pos[0], pos[1]), RADIUS)
+
+def main():
+    # Initialize the game
+    pygame.init()
+    draw_board()
+    pygame.display.update()
+
+    # Game loop
+    while True:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                sys.exit()
+
+if __name__ == "__main__":
+    main()
